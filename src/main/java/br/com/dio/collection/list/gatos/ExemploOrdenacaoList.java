@@ -1,4 +1,4 @@
-package br.com.dio.collection.list;
+package br.com.dio.collection.list.gatos;
 
 //Dadas as seguintes informações sobre meus gatos, crie uma lista e ordene
 //esta lista exibindo: (nome - idade - cor);
@@ -35,6 +35,18 @@ public class ExemploOrdenacaoList {
 
         System.out.println("--\tOrdem (IDADE)\t--");
         Collections.sort(meusGtos, new ComparatorIdade());
+        // meusGtos.sort( new ComparatorIdade());  <---- mesma função da linha acima
+        System.out.println(meusGtos);
+        System.out.println("-----------------------------------");
+
+        System.out.println("--\tOrdem (COR)\t--");
+        Collections.sort(meusGtos, new ComparatorCor());
+        // meusGtos.sort( new ComparatorIdade());  <---- mesma função da linha acima
+        System.out.println(meusGtos);
+        System.out.println("-----------------------------------");
+
+        System.out.println("--\tOrdem Nome/cor/Idade\t--");
+        Collections.sort(meusGtos, new ComparatorNomeCorIdade());
         // meusGtos.sort( new ComparatorIdade());  <---- mesma função da linha acima
         System.out.println(meusGtos);
         System.out.println("-----------------------------------");

@@ -1,4 +1,4 @@
-package br.com.dio.collection.list;
+package br.com.dio.collection.list.gatos;
 
 import java.util.Comparator;
 

@@ -1,4 +1,4 @@
-package br.com.dio.collection.list;
+package br.com.dio.collection.list.notas;
 
 import java.util.ArrayList;
 import java.util.Collections;
